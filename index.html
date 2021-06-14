@@ -19,6 +19,21 @@
 
     <link href="./main.d8e0d294.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+
+    <style>
+        .research-preview-image {
+            padding: 2.5%;
+            width: 25%;
+            vertical-align: middle;
+            min-width: 120px;
+        }
+
+        .research-description {
+            padding: 2.5%;
+            width: 75%;
+            vertical-align: middle;
+        }
+    </style>
 </head>
 
 <body class="">
@@ -100,10 +115,10 @@
                                     <tbody>
                                         <tr>
 
-                                            <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
+                                            <td class="research-preview-image">
                                                 <img src="./assets/images/sstvos.png" alt="SSTVOS Architecture" style="width:auto; height:auto; max-width:100%;">
                                             </td>
-                                            <td style="padding:2.5%;width:75%;vertical-align:middle">
+                                            <td class="research-description">
                                                 <h3>SSTVOS: Sparse Spatiotemporal Transformers for Video Object Segmentation</h3>
                                                 <br>
                                                 <strong>Brendan Duke</strong>, Abdalla Ahmed, Christian Wolf, Parham Aarabi, Graham W. Taylor
@@ -114,6 +129,26 @@
                                                 <a href="https://arxiv.org/abs/2101.08833">paper</a> / <a href="https://github.com/dukebw/SSTVOS">code</a>
                                                 <p>We introduce a Transformer-based approach to video object segmentation (VOS).
                                                     Our method, called Sparse Spatiotemporal Transformers (SST), extracts per-pixel representations for each object in a video using sparse attention over spatiotemporal features.
+                                                </p>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+
+                                            <td class="research-preview-image">
+                                                <img src="./assets/images/loho.png" alt="LOHO Preview" style="width:auto; height:auto; max-width:100%;">
+                                            </td>
+                                            <td class="research-description">
+                                                <h3>LOHO: Latent Optimization of Hairstyles via Orthogonalization</h3>
+                                                <br>
+                                                Rohit Saha, <strong>Brendan Duke</strong>, Florian Shkurti, Graham W. Taylor, Parham Aarabi
+
+                                                <br>
+                                                <strong>CVPR 2021</strong>
+                                                <br>
+                                                <a href="https://arxiv.org/abs/2103.03891">paper</a> / <a href="https://github.com/dukebw/LOHO">code</a>
+                                                <p>We propose Latent Optimization of Hairstyles via Orthogonalization (LOHO), an optimization-based approach using GAN inversion to infill missing hair structure details in latent space during hairstyle transfer.
+                                                    Using LOHO for latent space manipulation, users can synthesize novel photorealistic images by manipulating hair attributes either individually or jointly, transferring the desired attributes from reference hairstyles.
                                                 </p>
                                             </td>
                                         </tr>
